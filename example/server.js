@@ -1,5 +1,3 @@
-//var express = require('express');
-
 import express from 'express'
 import React from 'react'
 import ReactDOMServer from 'react-dom/server'
