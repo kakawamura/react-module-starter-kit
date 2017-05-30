@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Counter from './Counter';
+import TestButton from './TestButton';
 
 ReactDOM.render(
-  <Counter />,
+  <TestButton />,
   document.getElementById('app')
 )
