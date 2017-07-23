@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { printKazushi } from '../src/index.js';
+import Carousel from '../src/index.js';
 
 export default class TextButton extends Component {
 
@@ -10,12 +10,12 @@ export default class TextButton extends Component {
   render() {
     return (
       <div>
-        <button onClick={e => this.test()}>Text Me!</button>
+        <Carousel>
+          <Carousel.Child>a</Carousel.Child>
+          <Carousel.Child>b</Carousel.Child>
+          <Carousel.Child>c</Carousel.Child>
+        </Carousel>
       </div>
     )
-  }
-
-  test() {
-    printKazushi();    
   }
 }
